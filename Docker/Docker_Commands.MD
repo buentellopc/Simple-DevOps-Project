@@ -65,3 +65,8 @@ docker rm <container_id>
 ```sh
 docker exec -it <container_Name> /bin/bash
 ```
+
+13. build a docker image
+```sh
+docker build -t <image_Name> <imagePath>
+```
